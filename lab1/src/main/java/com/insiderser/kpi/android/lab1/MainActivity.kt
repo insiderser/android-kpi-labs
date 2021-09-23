@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun onOkClick() {
         val input = binding.editText.text
-        if (input.isNullOrEmpty()) {
+        if (input.isNullOrBlank()) {
             onNoInputText()
             return
         }
