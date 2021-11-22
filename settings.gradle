@@ -7,7 +7,9 @@ pluginManagement {
     plugins {
         id 'com.android.application' version '7.2.0-alpha04'
         id 'com.android.library' version '7.2.0-alpha04'
-        id 'org.jetbrains.kotlin.android' version '1.5.30'
+        id 'org.jetbrains.kotlin.android' version '1.6.0'
+        id 'org.jetbrains.kotlin.kapt' version '1.6.0'
+        id 'androidx.navigation.safeargs.kotlin' version '2.4.0-beta02'
     }
 }
 dependencyResolutionManagement {
@@ -18,4 +20,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "android"
-include ':lab1', ':lab2'
+include ':lab1', ':lab2', ':lab3'
